@@ -13,11 +13,11 @@ setwd("C:/Users/anniy/OneDrive/Desktop/r_stephens23/r_stephens23")
 
 #Step 2: Installing and Loading the Required Packages
 
-library(readxl)
+library(readxl) #to import excelfiles into R
 library(readr)
-library(haven)
-library(dplyr)
-library(fastDummies)
+library(haven) #to import .dta files into R
+library(dplyr) #for data manipulation
+library(fastDummies) #for easily creating dummy variables 
 
 ###############################################################################
 
